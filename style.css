@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.solid{
+    border-radius: 50%;
+}
+.iron{
+    border-radius: 50%;
+}
+.wood{
+    
+    border-radius: 50%;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    padding: 100px 30px;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <p>YOUTUBE SUBSCRIBE BUTTON</p>
+    <button onclick="check()">Subscribe</button>
+    
+
+    <script>
+        function check(){
+            let option = document.querySelector('button').innerText;
+            if(option === 'Subscribe'){
+                document.querySelector('button').innerHTML = 'Subscribed'
+            }
+            else if(option === 'Subscribed'){
+                document.querySelector('button').innerHTML = 'Subscribe'
+            }
+        }
+    </script>
+
+
+</body>
+</html>
